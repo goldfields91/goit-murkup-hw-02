@@ -91,6 +91,16 @@ font-family:'Raleway';
 
  .employees {color: var(--background-team-color);}
 
+ .our-team {
+  color: var(--primary-text-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+
  .team .name {
   color:var(--primary-text-color);
   font-family: 'Roboto';
