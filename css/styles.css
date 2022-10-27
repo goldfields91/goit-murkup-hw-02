@@ -14,142 +14,155 @@
 
 body {background-color:var(--main-header-color);
 color: var(--primary-text-color);
+font-weight: 400;
+letter-spacing: 0.03em;
+margin: 0;
 font-family: 'Roboto', sans-serif,'Raleway', sans-serif;}
 
-ul {list-style: none;}
 
- a {text-decoration: none;}
 
                /* title Студія*/
 
 .page-top {color: var(--main-header-color);}
 
 .logo {
-  color: var(--logo-color);
+list-style: none;
+text-decoration: none;
+color: var(--logo-color);
 font-family:'Raleway';
- font-display: normal;
  font-weight: 700;
  font-size: 26px;
- line-height: 31px;
- letter-spacing: 0.03em;
+ line-height: 0.83;
 }
 
 .web {color: var(--accent-color);}
 
- 
+.studio.current, .portfolio, .contacts, .mail-top, .tel {
+list-style: none;
+text-decoration: none;}
 
-  .portfolio,.contacts {color:var(--primary-text-color); }
+.site-nav {margin: 0;padding: 0;}
 
- .studio:hover,.studio:focus {color:var(--accent-color);}
+.portfolio, .contacts {color: var(--primary-text-color);}
 
- .mail-top {color:var(--logo-color);}
+.portfolio:hover, .portfolio:focus {color:var(--accent-color); }
+  
+  .contacts:hover, .contacts:focus {color:var(--accent-color) }
 
- .mail-top:hover,.mail-top:focus {color:var(--accent-color);}
+ .studio:hover, .studio:focus {color:var(--accent-color);}
+
+ .mail-top {color:var(--paragraph-text-color);}
+
+ .mail-top:hover, .mail-top:focus {color:var(--accent-color);}
+
+ .contact-info {margin: 0; padding: 0;}
 
  .contact-info .tel {color:var(--paragraph-text-color);}
+
+ .tel:hover, .tel:focus {color: var(--accent-color);}
 
  .hero {background-color: var(--background-hero-footer-color);}
 
  .hero-title {
   color:var(--main-header-color);
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 0.73;
   letter-spacing: 0.06em;
   }
 
  .section-title {
   color: var(--primary-text-color);
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
-  letter-spacing: 0.03em;
+  line-height: 0.85;
+}
+
+.princepels {
+  list-style: none; text-decoration: none;
+  margin: 0; padding: 0;
 }
 
  .princepels .title {
   color:var(--primary-text-color);
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 0.87;
 }
 
  .princepels .paragraph {
   color: var(--paragraph-text-color);
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 0.58;
 }
 
- .employees {color: var(--background-team-color);}
+.our-job {
+  list-style: none;
+  margin: o; padding: 0;
+}
+
+ .team {color: var(--background-team-color);
+margin: 0;
+padding: 0;}
 
  .our-team {
   color: var(--primary-text-color);
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
-  letter-spacing: 0.03em;
+  line-height: 0.85;
 }
+
+
 
  .team .name {
   color:var(--primary-text-color);
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
+  line-height: 0.84;
+ 
+
 }
 
  .team .job-title {
   color: var(--paragraph-text-color);
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
+  line-height: 0.84;
 }
 
  .order-button {
   color: var(--main-header-color);
   background-color:var(--accent-color) ;
+  border: none;
   cursor: pointer;
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 0.53;
   letter-spacing: 0.06em;
 }
+
   
 
 .site-nav {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 0.87;
   letter-spacing: 0.02em;
 }
 
 .contact-info {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 0.87;
   letter-spacing: 00.02em;
 }
 
@@ -164,84 +177,109 @@ font-family:'Raleway';
 .footer-logo {
 color: var(--main-header-color);
  font-family:'Raleway';
- font-display: normal;
  font-weight: 700;
  font-size: 26px;
- line-height: 31px;
- letter-spacing: 0.03em;
+ line-height: 0.83;
 }
 
 .locality {
   color: var(--main-header-color);
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 00.03em;
+  line-height: 0.58;
 }
+
+.locality:hover, .locality:focus {color: var(--accent-color);}
 
 .mail {
   color: var(--fotter-text-color);
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 00.03em;
+  line-height: 0.58;
 }
+.footer-contacts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.locality, .mail, .tel, .footer-logo {text-decoration: none;}
+
+.mail:hover, .mail:focus {color: var(--accent-color);}
 
 .tel {
   color: var(--fotter-text-color);
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 00.03em;
+  line-height: 0.58;
 }
+
+.tel:hover, .tel:focus {color: var(--accent-color);}
+
+
+
+ 
 
              /* title Портфоліо */
 
+ .studio {text-decoration: none;}             
+
 .button {
+  list-style: none;
   color: var(--primary-text-color);
   cursor: pointer;
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 00.03em;
+  line-height: 0.61;
+  margin: 0;
+  padding: 0;
+
 }
+
+
 
 .all {background-color: var(--accent-color) ;
   color: var(--main-header-color);cursor: pointer;
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 00.03em;
+  line-height: 0.61;
+  border: none;
 }
 
+.web-site, .application, .designe, .marketing {border: none;}
 
+.web-site, .application, .designe, .marketing {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.61;
+  cursor: pointer;
+}
+
+.examples {list-style: none;
+margin: 0;
+padding: 0;}
 
 .examples .project-name {
 color: var(--primary-text-color);
 font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 0.5;
   letter-spacing: 00.06em;
+  
 }
 
 .examples .project-title {
   color: var(--paragraph-text-color);
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 0.53;
   letter-spacing: 00.06em;
+
 }
