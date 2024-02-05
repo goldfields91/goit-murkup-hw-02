@@ -17,5 +17,9 @@ body {background-color:var(--main-header-color);
   letter-spacing: 0.03em;
   margin: 0;
   font-family: 'Roboto', sans-serif,'Raleway', sans-serif;}
-  
-  
+
+a {text-decoration: none;}  
+
+ul {list-style: none;}
+
+
