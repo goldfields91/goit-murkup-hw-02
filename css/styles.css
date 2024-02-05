@@ -1,18 +1,20 @@
 :root{
-  --primary-text-color: #212121 ;
-  --logo-color: #000000;
-  --paragraph-text-color:#757575;
-  --accent-color: #2196F3;
-  --fotter-text-color:rgba(255, 255, 255, 0.6);
-  --main-header-color: #FFFFFF;
-  --background-hero-footer-color: #2F303A;
-  --background-team-color: #F5F4FA;
-  --logo-footer-color: #2196F3;
-  
-}
+  --body-text-color: #434455;
+  --white-background-color:#FFFFFF;
+  --modal-background-color: #FCFCFC;
+  --modal-overlay-color: #2E2F42;
+  --hero-background-color: #2E2F42; 
+  --primary-brand-color: #4D5AE5;
+  --pressed-state-color: #404BBF;
+  --dark-overlays-shadows-color:#2E2F42;
+  --success-color: #31D0AA;
+  --subtle-text-color: #8E8F99;
+  --accent-color: #E7E9FC;
+  --light-mode-color: #F4F4FD;}
 
-body {background-color:var(--main-header-color);
-  color: var(--primary-text-color);
+body {
+  background-color: var(--white-background-color);
+  color: var(--body-text-color);
   font-weight: 400;
   letter-spacing: 0.03em;
   margin: 0;
@@ -21,5 +23,17 @@ body {background-color:var(--main-header-color);
 a {text-decoration: none;}  
 
 ul {list-style: none;}
+
+.web-logo, .studio-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+text-transform: uppercase;}
+
+.web-logo {color:var(--primary-brand-color);}
+
+.studio-logo {color: var(--body-text-color);}
+
 
 
