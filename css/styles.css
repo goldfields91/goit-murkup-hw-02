@@ -1,3 +1,4 @@
+
 :root{
   --body-text-color: #434455;
   --white-background-color:#FFFFFF;
@@ -20,11 +21,15 @@ body {
   margin:0;
   font-family: 'Roboto', sans-serif,'Raleway', sans-serif;}
 
+  h1,h2,h3,h4,h5,h6 {margin: 0;}
+
 a {text-decoration: none;}  
 
-ul {list-style: none;
+ul{list-style: none;
 margin: 0;
 padding: 0;}
+
+p {margin: 0;}
 
 .web-logo, .studio-logo {
   font-family: 'Raleway', sans-serif;
@@ -37,5 +42,148 @@ text-transform: uppercase;}
 
 .studio-logo {color: var(--body-text-color);}
 
+.navigation-link { 
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: var(--hero-background-color);
+letter-spacing: 0.02em;
+}
 
+.contacts-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+font-style: normal;
+color: var(--body-text-color);
+letter-spacing: 0.02em;
+}
 
+.navigation-link:hover, .navigation-link:focus {
+color: var(--pressed-state-color);
+}
+
+.contacts-link:hover, .contacts-link:focus {
+color: var(--pressed-state-color);
+}
+
+.hero {
+  background-color: var(--hero-background-color);
+}
+
+.hero-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07143;
+letter-spacing: 0.02em;
+color: var(--white-background-color);
+}
+
+.action-button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--white-background-color);
+background-color: var(--primary-brand-color);
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+border: 1px transparent;
+}
+
+.principels-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--hero-background-color);
+}
+
+.principels-meaning {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--body-text-color);
+}
+
+.team { background-color: var(--light-mode-color);}
+
+.team-section {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--hero-background-color);
+}
+
+.team-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--hero-background-color);
+}
+
+.job-title {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--body-text-color);
+}
+
+.portfolio-section {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--hero-background-color);
+}
+
+.portfolio-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--hero-background-color);
+}
+
+.portfolio-name {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--body-text-color);
+}
+
+.garage {background-color: var(--hero-background-color);}
+
+.garage-web {
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-brand-color);
+}
+
+.garage-studio {
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--light-mode-color);
+}
+
+.garage-info { 
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--light-mode-color);
+}
