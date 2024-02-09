@@ -31,6 +31,10 @@ padding: 0;}
 
 p {margin: 0;}
 
+button {cursor: pointer;}
+
+img {display: block;}
+
 .web-logo, .studio-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -88,7 +92,7 @@ color: var(--white-background-color);
 background-color: var(--primary-brand-color);
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 border: 1px transparent;
-cursor: pointer;
+
 }
 
 .principels-title {
